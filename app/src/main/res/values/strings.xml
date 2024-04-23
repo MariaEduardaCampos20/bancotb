@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">bancotb</string>
+    <string name="cyberbank">CyberBank</string>
+</resources>
