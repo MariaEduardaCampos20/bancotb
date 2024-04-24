@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente"
+    android:visibility="visible"
+    tools:context=".View.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:src="@drawable/gradientebotton"
+        app:layout_constraintBottom_toTopOf="@+id/txt_fututo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_titulomain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cyberbank"
+        android:textColor="#0B294A"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt_fututo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/txt_fututo"
+        android:layout_width="292dp"
+        android:layout_height="71dp"
+        android:text="Bem-vindo ao CyberBank  O banco do futuro, hoje!"
+        android:textColor="#FFFEFE"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="141dp" />
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="178dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo_removebg_preview"
+        app:layout_constraintBottom_toTopOf="@+id/inputemail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_fututo"
+        tools:ignore="UnknownIdInLayout" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
