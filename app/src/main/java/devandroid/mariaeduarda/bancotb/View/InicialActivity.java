@@ -2,16 +2,20 @@ package devandroid.mariaeduarda.bancotb.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import devandroid.mariaeduarda.bancotb.R;
 
-public class MainActivity extends AppCompatActivity {
+public class InicialActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_inicial);
+
+
+
     }
 
 
