@@ -9,4 +9,14 @@
     <string name="login">Login</string>
     <string name="logar">LOGAR</string>
     <string name="bem_vindo_ao_cyberbank_o_banco_do_futuro_hoje">Bem-vindo ao CyberBank O banco do futuro, hoje!</string>
+    <string name="seja_bem_vindo">Seja Bem Vindo !</string>
+    <string name="cadastre_se_gratuitamente">Cadastre-se Gratuitamente !</string>
+    <string name="nome">Nome</string>
+    <string name="cpf">CPF</string>
+    <string name="senha2">Senha</string>
+    <string name="d_posito_inicial">Déposito inicial</string>
+    <string name="todo">TODO</string>
+    <string name="logar2">Logar</string>
+    <string name="j_possui_conta">Já Possui Conta?</string>
+    <string name="cadastrar">Cadastrar</string>
 </resources>
