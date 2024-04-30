@@ -2,6 +2,7 @@ package devandroid.mariaeduarda.bancotb.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -25,10 +26,11 @@ public class MainActivity extends AppCompatActivity {
     EditText editTextTextPassword;
 
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
         pessoa = new  Pessoa();
         saldo = new Saldo();

@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "devandroid.mariaeduarda.bancotb"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "devandroid.mariaeduarda.bancotb"
