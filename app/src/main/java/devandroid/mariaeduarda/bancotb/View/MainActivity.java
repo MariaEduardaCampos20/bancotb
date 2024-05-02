@@ -30,12 +30,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_cadastro);
 
         pessoa = new  Pessoa();
         saldo = new Saldo();
 
-        inputemail = findViewById(R.id.inputemail);
+        /*inputemail = findViewById(R.id.inputemail);
         editTextTextPassword = findViewById(R.id.editTextTextPassword);
 
         inputemail.setTextColor(Color.WHITE);
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
 
             }
-        });
+        });*/
 
 
     }
